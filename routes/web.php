@@ -10,3 +10,7 @@ Route::get('/', function () {
 Route::get('test', function() {
     echo "test";
 });
+
+Route::get('/sweet-home', function(){
+    echo 'sweet home';
+});
